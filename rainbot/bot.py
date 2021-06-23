@@ -2,7 +2,7 @@ import tweepy
 import json, random, requests
 import country_converter as coco
 
-OWM_API_KEY = "1f4ebc962bb46caeb74ac2f5ec662fd4"
+OWM_API_KEY = // NO
 
 filepath = './city.list.json'
 with open(filepath, encoding="utf-8") as f:
@@ -49,8 +49,7 @@ def generateRandomWeatherTweet():
 
 
 # Authenticate to Twitter
-auth = tweepy.OAuthHandler("EmCWw02kB6OzvsapIiQ7DhaRC", "2tEtWpx0i5JPmv9rtN4PE13udiDuSfQar6Qapkv3rQgNi7ddc7")
-auth.set_access_token("4109292376-6IbVa6CslXtpSdwDjqj0XGVgxfL94xZwl5mdFZY", "KWWhmWUyDqJNtEj1kfE8XmZKG53dsVXSqwNBeiMVdMtLS")
+# Sorry
 
 api = tweepy.API(auth)
 
